@@ -4,11 +4,11 @@
 #include "tinyexpr.c"
 #include "tinyexpr.h"
 
-#define MAX_SIZE 100 //Максимальный размер вводимой строки
+#define MAX_SIZE 100 //РњР°РєСЃРёРјР°Р»СЊРЅС‹Р№ СЂР°Р·РјРµСЂ РІРІРѕРґРёРјРѕР№ СЃС‚СЂРѕРєРё
 
-const double INIT_APP = 0.5; //Начальные значения иксов
+const double INIT_APP = 0.5; //РќР°С‡Р°Р»СЊРЅС‹Рµ Р·РЅР°С‡РµРЅРёСЏ РёРєСЃРѕРІ
 const double EPS = 0.0000001;
-const int CNT = 1000; //Количество итераций
+const int CNT = 1000; //РљРѕР»РёС‡РµСЃС‚РІРѕ РёС‚РµСЂР°С†РёР№
 char * X_N[MAX_SIZE];
 
 typedef double ** num_type;
